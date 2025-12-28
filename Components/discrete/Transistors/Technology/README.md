@@ -210,7 +210,7 @@ Perfect! Let’s map the **Bipolar → CMOS → BiCMOS evolution** in a timeline
 ---
 
 ```mermaid
-graph TD;
+graph LR;
     A[Digital Logic Evolution] --> B[Bipolar TTL - 7400];
     A --> C[CMOS - 4000];
     A --> D[BiCMOS];
