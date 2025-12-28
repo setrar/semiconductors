@@ -210,30 +210,30 @@ Perfect! Let’s map the **Bipolar → CMOS → BiCMOS evolution** in a timeline
 ---
 
 ```mermaid
-graph TD
-    A[Digital Logic Evolution] --> B[Bipolar TTL (7400)]
-    A --> C[CMOS (4000)]
-    A --> D[BiCMOS]
+graph TD;
+    A[Digital Logic Evolution] --> B[Bipolar TTL - 7400];
+    A --> C[CMOS - 4000];
+    A --> D[BiCMOS];
 
-    B --> B1[Transistors: BJT]
-    B --> B2[Power: High]
-    B --> B3[Speed: Fast for 1960s]
-    B --> B4[Voltage: 5V only]
-    B --> B5[Status: Legacy only]
+    B --> B1[Transistors: BJT];
+    B --> B2[Power: High];
+    B --> B3[Speed: Fast for 1960s];
+    B --> B4[Voltage: 5V only];
+    B --> B5[Status: Legacy only];
 
-    C --> C1[Transistors: MOSFET (NMOS+PMOS)]
-    C --> C2[Power: Very Low]
-    C --> C3[Speed: Slower initially, improved with 74HC/HCT]
-    C --> C4[Voltage: 3–15V (flexible)]
-    C --> C5[Status: Dominant today]
+    C --> C1[Transistors: MOSFET NMOS+PMOS];
+    C --> C2[Power: Very Low];
+    C --> C3[Speed: Slower initially, improved with 74HC/HCT];
+    C --> C4[Voltage: 3–15V flexible];
+    C --> C5[Status: Dominant today];
 
-    D --> D1[Transistors: BJT + CMOS hybrid]
-    D --> D2[Power: Medium]
-    D --> D3[Speed: High]
-    D --> D4[Voltage: Flexible]
-    D --> D5[Status: Niche, specialized]
+    D --> D1[Transistors: BJT+CMOS hybrid];
+    D --> D2[Power: Medium];
+    D --> D3[Speed: High];
+    D --> D4[Voltage: Flexible];
+    D --> D5[Status: Niche, specialized];
 
-    style B fill:#ffdddd,stroke:#ff0000,stroke-width:2px
-    style C fill:#ddffdd,stroke:#00aa00,stroke-width:2px
-    style D fill:#ddddff,stroke:#0000ff,stroke-width:2px
+    style B fill:#ffdddd,stroke:#ff0000,stroke-width:2px;
+    style C fill:#ddffdd,stroke:#00aa00,stroke-width:2px;
+    style D fill:#ddddff,stroke:#0000ff,stroke-width:2px;
 ```
