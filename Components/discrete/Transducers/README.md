@@ -149,11 +149,3 @@ In O-RAN RU terminology:
 * **RFSoC transceiver tiles** → transceivers
 * **ADC/DAC boundary** → where transceiver meets digital PHY
 
----
-
-If you want, I can:
-
-* Draw a **block-level RU signal chain** labeling transducers vs transceivers
-* Explain why **antennas are never called transceivers** even though they TX/RX
-* Tie this to **IMEC / RFIC design terminology**
-
